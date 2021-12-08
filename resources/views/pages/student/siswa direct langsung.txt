@@ -1,0 +1,6 @@
+siswa direct langsung
+logout domain public 
+domain semua login harus / app.pijar.local
+aktivasi via email -> link dari email
+                   -> melalui cek input
+                   aktivasi susses

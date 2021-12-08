@@ -1,0 +1,123 @@
+/* .nav-tabs{
+  .nav-item{
+    .nav-link{
+      border: 1px solid #7a7a7a;
+      &.active{
+        background: #1632ff;
+        color:#fff
+      }
+    }
+  }
+} */
+.nav-tabs{
+  padding: 0!important;
+}
+.nav-tabs .nav-item .nav-link {
+  border: none;
+  margin-right: 0!important;
+  padding:8px 24px!important;
+  border-radius: 8px 8px 0 0;
+}
+.nav-tabs .nav-item .nav-link.active {
+  border: none;
+  background: #109fa6;
+  color: #fff;
+}
+.mdk-header-layout>.mdk-header {
+  position: relative!important;
+}
+.mdk-header__content{
+  height: auto!important;
+}
+.btn-action .material-icons {
+  font-size: 12px;
+  color: white;
+}
+.pagination {
+  display: inline-flex !important;
+}
+.btn-default {
+  background-color: #e3e5e7 !important;
+}
+.form-buttons {
+  margin-bottom: 20px;
+}
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  color: #B94A48;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+  margin-top: 15px;
+}
+
+#toast-container>div {
+  opacity: 1 !important;
+}
+
+.toast-error {
+  background-color: #BD362F !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.custom-loader{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 9999;
+  background: url(../images/ajax-loader.gif) 50% 50% no-repeat rgb(51, 49, 49);
+}
+
+.mb8 {
+  margin-bottom: 8px !important;
+}
+
+.pd25 {
+  padding: 25px;
+}
+
+.m10 {
+  margin: 10px
+}
+
+.align-center {
+  align-items: center;
+}
+
+.search-form {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
